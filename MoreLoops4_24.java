@@ -16,6 +16,7 @@ public class MoreLoops4_24 {
             x =sc.nextInt();
         }
     }
+    sc.close();
     System.out.printf("%d\t%d\n", sum, cnt);
 }
 }
