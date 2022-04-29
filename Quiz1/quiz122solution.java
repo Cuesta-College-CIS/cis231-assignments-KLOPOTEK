@@ -1,11 +1,10 @@
-
+package Quiz1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class quiz2 {
+public class quiz122solution {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
-		final int L = 3;
 		final int M = 3;
 		final int N = 2;
 		int[][] matrix1 = { { 2, 5, 10 },
@@ -25,7 +24,7 @@ public class quiz2 {
 				result[i] += matrix1[rowidx][j] * matrix2[j][i];
 			}
 		}
-
+		scnr.close();
 		System.out.println(Arrays.toString(result));
 
 	}
